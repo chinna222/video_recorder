@@ -6,7 +6,7 @@ let chunks = [];
 
 let constraints = {
   video: true,
-  audio: false,
+  audio: true,
 };
 
 navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
